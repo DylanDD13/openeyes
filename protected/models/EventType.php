@@ -103,7 +103,7 @@ class EventType extends BaseActiveRecordVersioned
         $criteria = new CDbCriteria();
         $criteria->condition = "class_name in ('" . implode("','",
                 array_keys(Yii::app()->getModules())) . "') and event_group_id != $legacy_events->id";
-        $criteria->order = 'name asc';
+        $criteria->order = 'sort_order asc';
         $criteria->addCondition('parent_id is null');
 
         return self::model()->findAll($criteria);
