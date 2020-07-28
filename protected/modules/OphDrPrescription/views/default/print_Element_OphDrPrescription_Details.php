@@ -59,14 +59,14 @@ if ($footer_param !== null) {
         <tr>
             <th>Patient Name</th>
             <td><?= $this->patient->fullname ?> (<?= $this->patient->gender ?>)</td>
-            <th>Hospital Number</th>
-            <td><?= $this->patient->hos_num ?></td>
+            <!--<th>Hospital Number</th>
+            <td><?= $this->patient->hos_num ?></td>-->
         </tr>
         <tr>
             <th>Date of Birth</th>
             <td><?= $this->patient->NHSDate('dob') ?> (<?= $this->patient->age ?>)</td>
-            <th><?= Yii::app()->params['nhs_num_label'] ?> Number</th>
-            <td><?= $this->patient->getNhsnum() ?></td>
+            <!--<th><?= Yii::app()->params['nhs_num_label'] ?> Number</th>
+            <td><?= $this->patient->getNhsnum() ?></td>-->
         </tr>
         <tr>
             <th>Consultant</th>
