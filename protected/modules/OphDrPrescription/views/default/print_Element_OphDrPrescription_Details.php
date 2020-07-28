@@ -194,8 +194,8 @@ if ($footer_param !== null) {
             </td>
         </tr>
         <tr class="handWritten">
-            <th>Clinical Checked by</th>
-            <td>&nbsp;</td>
+            <th>Signature</th>
+            <td>________________</td>
             <th>Date</th>
             <td>&nbsp;</td>
         </tr>
