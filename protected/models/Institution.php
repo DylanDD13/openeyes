@@ -136,7 +136,7 @@ class Institution extends BaseActiveRecordVersioned
             throw new Exception('Institution code is not set');
         }
 
-        $institution = $this->find('source_id=? and remote_id=?', array(1, Yii::app()->params['institution_code']));
+        $institution = $this->find('source_id=? and remote_id=?', array(1, 181));
         if (!$institution) {
             throw new Exception("Institution with code '".Yii::app()->params['institution_code']."' not found");
         }
