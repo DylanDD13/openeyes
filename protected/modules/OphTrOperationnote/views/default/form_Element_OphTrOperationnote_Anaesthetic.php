@@ -71,7 +71,7 @@ if (count($element->anaesthetic_type) > count($element->anaesthetic_type_assignm
                     array('label-class' => $element->getError('anaesthetic_delivery') ? 'error' : '')); ?>
           </td>
         </tr>
-        <tr id="Element_OphTrOperationnote_Anaesthetic_anaesthetist_id_container"
+        <!--<tr id="Element_OphTrOperationnote_Anaesthetic_anaesthetist_id_container"
             style="<?php if ($sed_hidden) :
                 ?>display: none;<?php
                    endif; ?>"
@@ -100,7 +100,7 @@ if (count($element->anaesthetic_type) > count($element->anaesthetic_type_assignm
 
             </td>
           </tr>
-        <?php endif; ?>
+        <?php endif; ?>-->
         </tbody>
       </table>
     </div>
