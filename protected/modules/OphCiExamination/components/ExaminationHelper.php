@@ -43,7 +43,7 @@ class ExaminationHelper
 
         // Deprecated elements that we keep in place for backward compatibility with rendering
         return array_merge($remove, array(
-            'OEModule\OphCiExamination\models\Element_OphCiExamination_Allergy',
+            //'OEModule\OphCiExamination\models\Element_OphCiExamination_Allergy',
             'OEModule\OphCiExamination\models\Element_OphCiExamination_Conclusion',
             'OEModule\OphCiExamination\models\Element_OphCiExamination_HistoryRisk',
             'OEModule\OphCiExamination\models\Element_OphCiExamination_Comorbidities',
