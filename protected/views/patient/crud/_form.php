@@ -236,7 +236,7 @@ foreach ($ethnic_list as $key=>$item) {
             ?>
           </td>
         </tr>
-        <tr>
+        <!--<tr>
           <td>
             <?= Yii::app()->params['nhs_num_label']?>
           </td>
@@ -261,7 +261,7 @@ foreach ($ethnic_list as $key=>$item) {
                 <?= $form->dropDownList($patient, 'nhs_num_status_id', $nhs_num_statuses,
                   array('empty' => '-- select --')); ?>
           </td>
-        </tr>
+        </tr>-->
         <?= $this->renderPartial('crud/_patient_identifiers', array(
                 'form' => $form,
                 'patient_identifiers' => $patient_identifiers,
