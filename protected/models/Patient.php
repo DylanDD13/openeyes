@@ -396,7 +396,7 @@ class Patient extends BaseActiveRecordVersioned
         }    
         if (isset($params['last_name']) ) {
             $criteria->compare('contact.last_name', $params['last_name'], false);
-            $criteria->addSearchCondition('contact.first_name', $params['last_name'] . '%', false);
+            $criteria->addSearchCondition('contact.first_name', $params['last_name'] . '%', false,'OR');
         }
         if (isset($params['maiden_name'])) {
             $criteria->compare('contact.maiden_name', $params['maiden_name'], false);
