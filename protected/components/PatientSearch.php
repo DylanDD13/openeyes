@@ -209,7 +209,7 @@ class PatientSearch
                 list($firstname, $surname) = explode(' ', $name, 2);
             } else {
                 $surname = $name;
-                $firstname = $name;
+                $firstname = '';
             }
 
             $result['first_name'] = trim($firstname);
