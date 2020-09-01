@@ -15,7 +15,9 @@
  * @copyright Copyright (c) 2011-2013, OpenEyes Foundation
  * @license http://www.gnu.org/licenses/agpl-3.0.html The GNU Affero General Public License V3.0
  */
-$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_logo.jpg';
+//$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_logo.jpg';
+$logoUrl = Yii::app()->basePath . '/assets/img/nu_logo.jpg';
+Yii::app()->basePath . '/assets/img/_print/';
 ?>
 <div class="oe-logo" id="js-openeyes-btn">
 <img style="height:100%;width:100%;" src="<?= $logoUrl?>>"> </img>
