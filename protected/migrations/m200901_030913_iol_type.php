@@ -4,6 +4,12 @@ class m200901_030913_iol_type extends CDbMigration
 {
 	public function up()
 	{
+		$this->insert('ophinbiometry_lenstype_lens', array(
+			'name'=> 'Rumex AquaFree Preloaded',
+			'display_name' => 'Rumex AquaFree Preloaded'
+		)
+
+		);
 	}
 
 	public function down()
