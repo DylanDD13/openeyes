@@ -6,7 +6,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 	{
 
 		$this->insert('disorder', array(
-			'id' => 762441009,
+			'id' => 762441010,
 			'fully_specified_name'=> 'Mild Non-Proliferative Diabetic Retinopathy',
 			'term' => 'Mild Non-Proliferative Diabetic Retinopathy',
 			'specialty_id' => 109
@@ -15,7 +15,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 		);
 
 		$this->insert('disorder', array(
-			'id' => 762441010,
+			'id' => 762441011,
 			'fully_specified_name'=> 'Moderate Non-Proliferative Diabetic Retinopathy',
 			'term' => 'Moderate Non-Proliferative Diabetic Retinopathy',
 			'specialty_id' => 109
@@ -24,7 +24,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 		);
 
 		$this->insert('disorder', array(
-			'id' => 762441011,
+			'id' => 762441012,
 			'fully_specified_name'=> 'Severe Non-Proliferative Diabetic Retinopathy',
 			'term' => 'Severe Non-Proliferative Diabetic Retinopathy',
 			'specialty_id' => 109
@@ -61,14 +61,6 @@ class m200923_034839_add_new_disorders extends CDbMigration
 
 	
 		$this->insert('common_ophthalmic_disorders', array(
-			'disorder_id'=> 762441009,
-			'subspecialty_id' => 12,
-			'display_order' => 8
-		)
-
-		);
-
-		$this->insert('common_ophthalmic_disorders', array(
 			'disorder_id'=> 762441010,
 			'subspecialty_id' => 12,
 			'display_order' => 8
@@ -78,6 +70,14 @@ class m200923_034839_add_new_disorders extends CDbMigration
 
 		$this->insert('common_ophthalmic_disorders', array(
 			'disorder_id'=> 762441011,
+			'subspecialty_id' => 12,
+			'display_order' => 8
+		)
+
+		);
+
+		$this->insert('common_ophthalmic_disorders', array(
+			'disorder_id'=> 762441012,
 			'subspecialty_id' => 12,
 			'display_order' => 8
 		)
