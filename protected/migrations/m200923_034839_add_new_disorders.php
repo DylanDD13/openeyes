@@ -35,7 +35,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 
 
 
-		$this->insert('common_ophthalmic_disorders', array(
+		$this->insert('common_ophthalmic_disorder', array(
 			'disorder_id'=> 162290004,
 			'subspecialty_id' => 12,
 			'display_order' => 8
@@ -43,7 +43,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 
 		);
 
-		$this->insert('common_ophthalmic_disorders', array(
+		$this->insert('common_ophthalmic_disorder', array(
 			'disorder_id'=> 77489003,
 			'subspecialty_id' => 12,
 			'display_order' => 8
@@ -51,7 +51,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 
 		);
 
-		$this->insert('common_ophthalmic_disorders', array(
+		$this->insert('common_ophthalmic_disorder', array(
 			'disorder_id'=> 103,
 			'subspecialty_id' => 12,
 			'display_order' => 8
