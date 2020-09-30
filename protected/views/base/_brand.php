@@ -15,10 +15,10 @@
  * @copyright Copyright (c) 2011-2013, OpenEyes Foundation
  * @license http://www.gnu.org/licenses/agpl-3.0.html The GNU Affero General Public License V3.0
  */
-//$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_logo.jpg';
-$path = Yii::app()->basePath . '/assets/img/';
-$url = Yii::app()->assetManager->publish($path);
-$logoUrl = $url . '/nu_logo.jpg';
+$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_svg.svg';
+//$path = Yii::app()->basePath . '/assets/img/';
+//$url = Yii::app()->assetManager->publish($path);
+//$logoUrl = $url . '/nu_logo.jpg';
 
 Yii::app()->basePath . '/assets/img/_print/';
 ?>
