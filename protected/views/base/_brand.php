@@ -23,7 +23,7 @@ $logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('applic
 Yii::app()->basePath . '/assets/img/_print/';
 ?>
 <div class="oe-logo" id="js-openeyes-btn">
-<img style="height: 140.94px;top: -42px;position: absolute;" src="<?= $logoUrl?>"> </img>
+<img style="height: 56.94px;top: 0px;position: absolute;" src="<?= $logoUrl?>"> </img>
   <!--<svg viewBox="0 0 300.06 55.35" class="oe-openeyes">
  
     <use xlink:href="<?= $logoUrl . '#openeyes-logo'; ?>"></use>
