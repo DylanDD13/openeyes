@@ -23,7 +23,7 @@ $logoUrl = $url . '/nu_logo.jpg';
 Yii::app()->basePath . '/assets/img/_print/';
 ?>
 <div class="oe-logo" id="js-openeyes-btn">
-<img style="height:100%;width:100%;" src="<?= $logoUrl?>>"> </img>
+<img style="height:100%;width:100%;" src="<?= $path?>>"> </img>
   <!--<svg viewBox="0 0 300.06 55.35" class="oe-openeyes">
     <use xlink:href="<?= $logoUrl . '#openeyes-logo'; ?>"></use>
   </svg>-->
