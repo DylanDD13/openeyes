@@ -15,7 +15,7 @@
  * @copyright Copyright (c) 2011-2013, OpenEyes Foundation
  * @license http://www.gnu.org/licenses/agpl-3.0.html The GNU Affero General Public License V3.0
  */
-$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_logo.png';
+$logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.assets.newblue')) . '/svg/nu_logo_final.png';
 //$path = Yii::app()->basePath . '/assets/img/';
 //$url = Yii::app()->assetManager->publish($path);
 //$logoUrl = $url . '/nu_logo.jpg';
@@ -23,10 +23,11 @@ $logoUrl = Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('applic
 Yii::app()->basePath . '/assets/img/_print/';
 ?>
 <div class="oe-logo" id="js-openeyes-btn">
-<!--<img style="height:100%;width:100%;" src="<?= $logoUrl?>"> </img>-->
-  <svg viewBox="0 0 300.06 55.35" class="oe-openeyes">
+<img style="height: 140.94px;top: -42px;position: absolute;" src="<?= $logoUrl?>"> </img>
+  <!--<svg viewBox="0 0 300.06 55.35" class="oe-openeyes">
+ 
     <use xlink:href="<?= $logoUrl . '#openeyes-logo'; ?>"></use>
-  </svg>
+  </svg>-->
 </div>
 
 <div class="oe-product-info" id="js-openeyes-info" style="display: none;">
