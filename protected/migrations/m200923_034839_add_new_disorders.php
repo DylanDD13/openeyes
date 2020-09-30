@@ -60,7 +60,7 @@ class m200923_034839_add_new_disorders extends CDbMigration
 	public function down()
 	{
 		echo "m200923_034839_add_new_disorders does not support migration down.\n";
-		return false;
+		return true;
 	}
 
 	/*
