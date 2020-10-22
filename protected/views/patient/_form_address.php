@@ -95,7 +95,7 @@
         <?= $form->error($address, 'country_id') ?>
   </td>
   <td>
-        <?= $form->dropDownList($address, 'country_id', $countries, array('226' => 'Trinidad and Tobago', 'placeholder' => 'Country')) ?>
+        <?= $form->dropDownList($address, 'country_id', $countries, array('empty' => '-- select --', 'placeholder' => 'Country')) ?>
   </td>
 </tr>
 
